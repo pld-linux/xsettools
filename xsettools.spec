@@ -14,7 +14,6 @@ Requires:	textutils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 A set of scripts to X Window settings manipulation and a script that can 
