@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://free.of.pl/a/adgor/%{name}-%{version}.tar.gz
-# Source0-md5: 48dbc2920bffba079533aa710103a8ec
+# Source0-md5:	48dbc2920bffba079533aa710103a8ec
 Requires:	XFree86
 Requires:	dml
 Requires:	grep
