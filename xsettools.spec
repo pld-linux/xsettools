@@ -1,7 +1,7 @@
 Summary:	Tools for X Window settings
 Summary(pl):	Narzêdzia do ustawieñ X Window
 Name:		xsettools
-Version:	0.21
+Version:	0.22
 Release:	1
 License:	GPL
 Group:		X11/Applications
