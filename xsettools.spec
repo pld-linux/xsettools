@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
 %description
-A set of scripts to X Window settings manipulation and a script that can 
+A set of scripts to X Window settings manipulation and a script that can
 receive settings while Window Manager starts.
 
 %description -l pl
