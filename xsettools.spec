@@ -30,8 +30,7 @@ Managera.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d \
-	 $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/Settings/XsetTools}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/Settings/XsetTools}
 
 install dpmsset mouseset rootset ssaverset xsetrcv $RPM_BUILD_ROOT%{_bindir}
 install *.desktop .directory $RPM_BUILD_ROOT%{_applnkdir}/Settings/XsetTools
@@ -42,6 +41,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README CHANGELOG TODO
+%attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Settings/XsetTools/*.desktop
 %{_applnkdir}/Settings/XsetTools/.directory
-%attr(755,root,root) %{_bindir}/*
