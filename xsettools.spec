@@ -1,5 +1,5 @@
 Summary:	Tools for X Window settings
-Summary(pl.UTF-8):   Narzędzia do ustawień X Window
+Summary(pl.UTF-8):	Narzędzia do ustawień X Window
 Name:		xsettools
 Version:	0.22
 Release:	1
