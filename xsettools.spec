@@ -1,5 +1,5 @@
 Summary:	Tools for X Window settings
-Summary(pl):	Narzêdzia do ustawieñ X Window
+Summary(pl.UTF-8):   NarzÄ™dzia do ustawieÅ„ X Window
 Name:		xsettools
 Version:	0.22
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A set of scripts to X Window settings manipulation and a script that can
 receive settings while Window Manager starts.
 
-%description -l pl
-Zestaw skryptów do manipulowania ustawieniami ¶rodowiska X Window oraz
-skrypt umo¿liwiaj±cy odtworzenie ustawieñ podczas startu Window
+%description -l pl.UTF-8
+Zestaw skryptÃ³w do manipulowania ustawieniami Å›rodowiska X Window oraz
+skrypt umoÅ¼liwiajÄ…cy odtworzenie ustawieÅ„ podczas startu Window
 Managera.
 
 %prep
